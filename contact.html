@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact ECHOLS DUGOUT CLUB INC for donations, sponsorships, volunteering, and general inquiries."
+    />
+    <meta name="theme-color" content="#0e4b38" />
+    <title>ECHOLS DUGOUT CLUB INC | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="ECHOLS DUGOUT CLUB INC home">
+        <span class="brand-dot"></span>
+        <span>ECHOLS DUGOUT CLUB INC</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">
+        Menu
+      </button>
+
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="events.html">Events</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section page-hero reveal">
+        <p class="eyebrow">Contact and Donate</p>
+        <h1>Partner With ECHOLS DUGOUT CLUB INC</h1>
+        <p class="hero-copy">
+          Reach out for donations, sponsorship opportunities, volunteer support, and general questions.
+        </p>
+      </section>
+
+      <section class="section split donate reveal">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>Donation and Partnership Inquiries</h2>
+          <p>
+            Your support helps local youth athletes access equipment, safer facilities, and stronger
+            team experiences. Start by sending us a message or emailing our team directly.
+          </p>
+          <a class="btn btn-primary" href="mailto:info@echolsdugout.com?subject=Donation%20Inquiry">Start a Donation</a>
+        </div>
+        <div class="highlight-card">
+          <h3>Principal Officer</h3>
+          <p><strong>VICTORIA LEIGH STATEN</strong></p>
+          <p>1491 HWY 129 SOUTH</p>
+          <p>LAKE PARK, GA 31636</p>
+          <p>United States</p>
+          <p>Email: <a href="mailto:info@echolsdugout.com">info@echolsdugout.com</a></p>
+        </div>
+      </section>
+
+      <section class="section contact reveal">
+        <p class="eyebrow">Send a Message</p>
+        <h2>Contact Form</h2>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            Full Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email Address
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Subject
+            <select name="subject" required>
+              <option value="">Choose one</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Volunteer Interest">Volunteer Interest</option>
+              <option value="Donation Inquiry">Donation Inquiry</option>
+              <option value="Sponsorship Opportunity">Sponsorship Opportunity</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Email</button>
+          <p id="formFeedback" class="form-feedback" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>ECHOLS DUGOUT CLUB INC | EIN 99-3856023 | United States</p>
+      <p>
+        Email: <a href="mailto:info@echolsdugout.com">info@echolsdugout.com</a> |
+        Official Site: <a href="https://echolsdugout.com" target="_blank" rel="noopener">echolsdugout.com</a>
+      </p>
+      <p class="tiny">Copyright 2026 ECHOLS DUGOUT CLUB INC. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

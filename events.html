@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View upcoming events and community activities from ECHOLS DUGOUT CLUB INC."
+    />
+    <meta name="theme-color" content="#0e4b38" />
+    <title>ECHOLS DUGOUT CLUB INC | Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="ECHOLS DUGOUT CLUB INC home">
+        <span class="brand-dot"></span>
+        <span>ECHOLS DUGOUT CLUB INC</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">
+        Menu
+      </button>
+
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a class="active" href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section page-hero reveal">
+        <p class="eyebrow">Events</p>
+        <h1>Join Upcoming Club and Community Activities</h1>
+        <p class="hero-copy">
+          Explore volunteer opportunities, clinics, and fundraiser events designed to support local
+          students and families.
+        </p>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Calendar</p>
+            <h2>Event Schedule</h2>
+          </div>
+          <div class="event-filters" role="tablist" aria-label="Event filter tabs">
+            <button class="tab active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="tab" data-filter="upcoming" role="tab" aria-selected="false">Upcoming</button>
+            <button class="tab" data-filter="community" role="tab" aria-selected="false">Community</button>
+          </div>
+        </div>
+        <div id="eventList" class="event-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section faq reveal">
+        <p class="eyebrow">Event FAQ</p>
+        <h2>Before You Attend</h2>
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false">How can I register as a volunteer?</button>
+          <div class="accordion-panel">
+            <p>
+              Use the contact page and select Volunteer Interest. We will follow up with event details
+              and volunteer roles.
+            </p>
+          </div>
+          <button class="accordion-trigger" aria-expanded="false">Can businesses sponsor an event?</button>
+          <div class="accordion-panel">
+            <p>
+              Yes. Send a sponsorship inquiry and include your organization name, support goals, and
+              preferred event timeframe.
+            </p>
+          </div>
+          <button class="accordion-trigger" aria-expanded="false">Are events family-friendly?</button>
+          <div class="accordion-panel">
+            <p>
+              Yes. Most of our events are open to families and designed to promote local school spirit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split donate reveal">
+        <div>
+          <p class="eyebrow">Get Involved</p>
+          <h2>Want to Help Host an Event?</h2>
+          <p>
+            We welcome volunteers and partner organizations to support planning, logistics, and event-day
+            operations.
+          </p>
+          <a class="btn btn-primary" href="contact.html">Volunteer or Sponsor</a>
+        </div>
+        <div class="highlight-card">
+          <h3>Event Contact</h3>
+          <p>Email: <a href="mailto:info@echolsdugout.com">info@echolsdugout.com</a></p>
+          <p>Location: Echols County, Georgia</p>
+          <p>Country: United States</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>ECHOLS DUGOUT CLUB INC | EIN 99-3856023 | United States</p>
+      <p>
+        Email: <a href="mailto:info@echolsdugout.com">info@echolsdugout.com</a> |
+        Official Site: <a href="https://echolsdugout.com" target="_blank" rel="noopener">echolsdugout.com</a>
+      </p>
+      <p class="tiny">Copyright 2026 ECHOLS DUGOUT CLUB INC. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

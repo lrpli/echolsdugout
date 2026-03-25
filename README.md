@@ -4,7 +4,7 @@ Official nonprofit website project for ECHOLS DUGOUT CLUB INC.
 
 ## Included
 
-- Responsive single-page website in full English
+- Responsive multi-page website in full English
 - Organization identity and legal details (including EIN)
 - Programs, events, impact, FAQ, contact, and donation sections
 - Interactive features:
@@ -17,7 +17,11 @@ Official nonprofit website project for ECHOLS DUGOUT CLUB INC.
 
 ## Project Files
 
-- `index.html` - Main page structure and content
+- `index.html` - Homepage
+- `about.html` - Organization story and legal details
+- `programs.html` - Program offerings and impact highlights
+- `events.html` - Event listing and event FAQ
+- `contact.html` - Contact form and donation inquiries
 - `styles.css` - Custom visual design and responsive styling
 - `script.js` - Front-end interactions and form behavior
 

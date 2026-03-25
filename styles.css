@@ -119,6 +119,12 @@ a {
   font-weight: 700;
 }
 
+.site-nav a.active {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
 main {
   width: min(1100px, 92%);
   margin: 0 auto;
@@ -139,6 +145,15 @@ main {
 
 .hero {
   padding-top: 6rem;
+}
+
+.page-hero {
+  padding-top: 5.2rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.9rem, 5.4vw, 3.2rem);
+  max-width: 17ch;
 }
 
 .hero h1 {
@@ -250,6 +265,10 @@ textarea:focus-visible {
 
 .feature-card {
   padding: 1.1rem;
+}
+
+.quick-links .feature-card a {
+  font-weight: 800;
 }
 
 .section-head {
