@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official website for Echols Dugout Club Inc, supporting youth athletics and community growth in Echols County, Georgia."
+    />
+    <meta name="theme-color" content="#0e4b38" />
+    <title>ECHOLS DUGOUT CLUB INC | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="ECHOLS DUGOUT CLUB INC home">
+        <span class="brand-dot"></span>
+        <span>ECHOLS DUGOUT CLUB INC</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">
+        Menu
+      </button>
+
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section reveal">
+        <p class="eyebrow">Nonprofit Organization | EIN 99-3856023</p>
+        <h1>Building Character Through Community Sports</h1>
+        <p class="hero-copy">
+          Echols Dugout Club Inc supports youth athletics, student leadership, and family-centered
+          events across Echols County. Every donation and volunteer hour helps local students grow
+          stronger on and off the field.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="contact.html">Support the Mission</a>
+          <a class="btn btn-secondary" href="events.html">See Upcoming Events</a>
+        </div>
+      </section>
+
+      <section class="section split reveal">
+        <div>
+          <p class="eyebrow">Welcome</p>
+          <h2>A Community Nonprofit Serving Echols County Families</h2>
+          <p>
+            ECHOLS DUGOUT CLUB INC is a United States nonprofit organization focused on empowering
+            students through organized sports, equipment support, and positive community involvement.
+            We believe athletics create confidence, discipline, and long-term success.
+          </p>
+          <a class="btn btn-secondary" href="about.html">Read Our Story</a>
+        </div>
+        <aside class="info-card">
+          <h3>At a Glance</h3>
+          <ul>
+            <li><strong>Legal Name:</strong> ECHOLS DUGOUT CLUB INC</li>
+            <li><strong>EIN:</strong> <span id="einText">99-3856023</span></li>
+            <li><strong>Country:</strong> United States</li>
+            <li><strong>Email:</strong> <a href="mailto:info@echolsdugout.com">info@echolsdugout.com</a></li>
+            <li><strong>Website:</strong> <a href="https://echolsdugout.com" target="_blank" rel="noopener">echolsdugout.com</a></li>
+          </ul>
+          <button class="btn btn-small" id="copyEinButton">Copy EIN</button>
+          <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+        </aside>
+      </section>
+
+      <section class="section reveal">
+        <p class="eyebrow">Explore</p>
+        <h2>Discover Our Work</h2>
+        <div class="card-grid quick-links">
+          <article class="feature-card">
+            <h3>Programs</h3>
+            <p>See how we support equipment, facilities, and student development.</p>
+            <a href="programs.html">Go to Programs</a>
+          </article>
+          <article class="feature-card">
+            <h3>Events</h3>
+            <p>Track community activities, clinics, and fundraising opportunities.</p>
+            <a href="events.html">Go to Events</a>
+          </article>
+          <article class="feature-card">
+            <h3>Donate</h3>
+            <p>Help fund youth athlete resources and long-term local impact.</p>
+            <a href="contact.html">Support Now</a>
+          </article>
+          <article class="feature-card">
+            <h3>Contact</h3>
+            <p>Volunteer, sponsor an event, or connect with our leadership team.</p>
+            <a href="contact.html">Get in Touch</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stats reveal">
+        <p class="eyebrow">Impact</p>
+        <h2>Community Impact Snapshot</h2>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="stat-number" data-target="250">0</span>
+            <p>Youth participants supported</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="40">0</span>
+            <p>Volunteers activated yearly</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="12">0</span>
+            <p>Community events hosted</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="100">0</span>
+            <p>Percent local commitment</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split donate reveal">
+        <div>
+          <p class="eyebrow">Take Action</p>
+          <h2>Ready to Volunteer, Donate, or Sponsor?</h2>
+          <p>
+            Visit our contact page to send a message, start a donation conversation, or request
+            volunteer opportunities for your family or organization.
+          </p>
+          <a class="btn btn-primary" href="contact.html">Open Contact Page</a>
+        </div>
+        <div class="highlight-card">
+          <h3>Principal Officer</h3>
+          <p><strong>VICTORIA LEIGH STATEN</strong></p>
+          <p>1491 HWY 129 SOUTH</p>
+          <p>LAKE PARK, GA 31636</p>
+          <p>United States</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>ECHOLS DUGOUT CLUB INC | EIN 99-3856023 | United States</p>
+      <p>
+        Email: <a href="mailto:info@echolsdugout.com">info@echolsdugout.com</a> |
+        Official Site: <a href="https://echolsdugout.com" target="_blank" rel="noopener">echolsdugout.com</a>
+      </p>
+      <p class="tiny">Copyright 2026 ECHOLS DUGOUT CLUB INC. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
